@@ -1,1 +1,5 @@
-this repository contains docs about nutfes organization
+# 勉強会用資料
+## このリポジトリについて
+勉強会の資料を管理するリポジトリです．
+
+
