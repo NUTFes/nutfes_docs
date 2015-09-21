@@ -24,6 +24,7 @@ WL300NE-AG(イーサネットコンバータ)の初期設定
 
 # ブラウザから親機(アクセスポイント)の設定をする
 
+有線でPCと接続する  
 [サイト](http://www.aterm.jp/function/guide13/wireless-common/m06_m11_ne.html)
 の`無線LANアクセスポイント(親機)に接続するための設定を行う`を行う
 
