@@ -48,7 +48,7 @@ origin	github:NUTFes/group-manager.git (push)
 - コミットをGitHubにプッシュする(セーブポイントをアップロードする)
 - 正確に言うと `git push <リモートリポジトリの名前> <branch>`
 
-### git pull
+### git pull --rebase
 - リモートリポジトリの変更点をローカルリポジトリに適用する
 
 
