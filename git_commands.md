@@ -1,6 +1,6 @@
 # よく使うgitコマンド一覧
 
-### git clone <レポジトリ>
+### git clone 'レポジトリ'
 - GitHubで公開されているリモートレポジトリをローカルにクローン(コピー)する
 - ex. `git clone git@github.com:NUTFes/group-manager.git` => group-managerをローカルにクローン
 
@@ -13,11 +13,11 @@
 ### git branch
 - ブランチの一覧を表示する
 
-### git checkout <branch>
+### git checkout 'branch'
 - ブランチを<branch>に切り替える
 - ex. `git checkout develop` => developブランチに切り替える
 
-### git checkout -b <new_branch>
+### git checkout -b 'new_branch'
 - 新しい<new_branch>という名前のブランチを作る
 - ex. `git checkout -b issue100` => issue100という名前のブランチを作成
 
@@ -25,13 +25,13 @@
 - 現在のディレクトリをgitで管理することを開始する
 - (.git/というディレクトリが作られる)
 
-### git diff <file>
+### git diff 'file'
 - (ステージに乗せていない変更ファイルの)変更箇所を表示する
 
-### git add <file>
+### git add 'file'
 - 変更したファイルをステージに乗せる(セーブする変更ファイルを指定する)
 
-### git commit -m '<commit_massage>'
+### git commit -m 'commit_massage'
 - ステージに乗っている変更ファイルをコミットする(セーブポイントを作る)
 - ex. `git commit -m 'ダッシュボードの表示ミスを修正'`
 
