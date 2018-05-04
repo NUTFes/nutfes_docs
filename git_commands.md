@@ -58,3 +58,28 @@ origin	github:NUTFes/group-manager.git (push)
 `ブランチ`: 木の枝のイメージ. どの枝にセーブポイントを付けるか.  
 `ステージ`: pushしたい変更ファイルをステージに乗せるイメージ  
 `ブランチを切る`: 新しくブランチを作ること  
+
+# 順番
+
+0.ブランチを切る
+```
+git checkout -b <issue名>
+```
+### 〜〜group-manager編集〜〜
+1.編集したファイルを確認
+```
+git status
+```
+2.編集したファイルをadd
+```
+git add <編集したファイル名>
+```
+3.編集したファイルをcommit
+```
+git commit -m "コミットメッセージ"
+```
+4.編集したファイルをpush
+```
+git push origin <ブランチ名>
+```
+Â
