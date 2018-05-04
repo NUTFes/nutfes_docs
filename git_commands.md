@@ -51,6 +51,8 @@ origin	github:NUTFes/group-manager.git (push)
 ### git pull --rebase
 - リモートリポジトリの変更点をローカルリポジトリに適用する
 
+### git checkout .
+- 変更したファイルを変更前の状態に全て戻す
 
 ### 用語
 `リモートリポジトリ`: GitHub上で公開されているリポジトリ  
